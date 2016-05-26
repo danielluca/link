@@ -1,0 +1,71 @@
+.container {
+    margin-top: 4.5em;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 8em;
+    }
+
+    .row {
+        display: flex;
+        max-width: 960px;
+        margin: auto;
+        flex-direction: column;
+
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+        }
+
+        .dev-cards {
+            display: flex;
+            align-items: center;
+            align-content: center;
+            border: solid 2px transparentize($black, .95);
+            border-radius: 4px;
+            padding: 1em;
+            flex-grow: 1;
+            flex-basis: 100%;
+            text-align: center;
+            margin-left: 1em;
+            margin-right: 1em;
+            margin-top: 1em;
+
+            @media screen and (min-width: 768px) {
+                margin-bottom: 1em;
+                padding: 2em;
+                max-width: 220px;
+            }
+
+            &:hover {
+                border-color: $primaryOneColor;
+            }
+
+            .illustration {
+                display: flex;
+                align-content: center;
+
+                img {
+                    height: 60px;
+                    width: auto;
+                }
+            }
+
+            .dev-name {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                text-transform: uppercase;
+                font-size: 1.25em;
+                color: $primaryOneColor;
+                text-align: left;
+                margin-left: 1em;
+
+                span {
+                    font-size: .8em;
+                    line-height: 1;
+                    text-transform: none;
+                    color: rgba(0, 0, 0, .4);
+                }
+            }
+        }
+    }
+}

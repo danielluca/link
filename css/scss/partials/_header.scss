@@ -1,0 +1,32 @@
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 1.2em;
+    text-align: center;
+    margin: auto;
+    background-color: $primaryOneColor;
+
+    .logo {
+        display: flex;
+        justify-content: center;
+
+        svg {
+            width: 30px;
+            height: 30px;
+
+            .st0 {
+                fill: none;
+                stroke: $alternateTextColor;
+                stroke-width: 12;
+                stroke-miterlimit: 10;
+            }
+        }
+    }
+
+    .description {
+        color: $alternateTextColor;
+        margin-top: .5em;
+    }
+}

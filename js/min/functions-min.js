@@ -1,0 +1,1 @@
+var projectURL=document.getElementsByClassName("set-project-field").innerHTML,baseURL="https://",devID=document.getElementsByClassName("devID").innerHTML,port="3443";
