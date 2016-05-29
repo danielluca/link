@@ -1,7 +1,23 @@
 .footer {
+    display: flex;
+    justify-content: space-between;
     padding: 3em;
-    max-width: 960px;
-    margin: auto;
-    text-align: center;
-    color: transparentize($black, .6);
+    color: $textColor;
+    background-color: lighten($primaryTwoColor, 62);
+    margin-top: 5em;
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 960px;
+        margin: auto;
+        color: lighten($textColor, 20);
+    }
+
+    .left,
+    .right {
+        margin-left: 1.3em;
+        margin-right: 1.3em;
+    }
 }

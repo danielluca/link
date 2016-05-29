@@ -9,26 +9,40 @@
     </head>
     <body>
         <header class="header">
-            <div class="logo">
-                <svg x="0px" y="0px" viewBox="0 0 150 150">
-                    <g>
-                    	<path class="st0" d="M22,128L22,128c-9.8-9.8-9.8-25.6,0-35.4L92.7,22c9.8-9.8,25.6-9.8,35.4,0l0,0c9.8,9.8,9.8,25.6,0,35.4
-                    		L57.3,128C47.6,137.8,31.7,137.8,22,128z"/>
-                    	<path class="st0" d="M22,22L22,22c9.8-9.8,25.6-9.8,35.4,0L128,92.7c9.8,9.8,9.8,25.6,0,35.4l0,0c-9.8,9.8-25.6,9.8-35.4,0L22,57.3
-                    		C12.2,47.6,12.2,31.7,22,22z"/>
-                    </g>
-                </svg>
+            <div class="header-container">
+                <div class="logo">
+                    <svg x="0px" y="0px" viewBox="0 0 150 150">
+                        <g>
+                        	<path class="st0" d="M22,128L22,128c-9.8-9.8-9.8-25.6,0-35.4L92.7,22c9.8-9.8,25.6-9.8,35.4,0l0,0c9.8,9.8,9.8,25.6,0,35.4
+                        		L57.3,128C47.6,137.8,31.7,137.8,22,128z"/>
+                        	<path class="st0" d="M22,22L22,22c9.8-9.8,25.6-9.8,35.4,0L128,92.7c9.8,9.8,9.8,25.6,0,35.4l0,0c-9.8,9.8-25.6,9.8-35.4,0L22,57.3
+                        		C12.2,47.6,12.2,31.7,22,22z"/>
+                        </g>
+                    </svg>
+                </div>
+
+                <div class="description">
+                    Operator at Captain Future
+                </div>
             </div>
         </header>
 
-        <!--
-        <section class="base-url">
-            <input type="text" name="name" value="" placeholder="What's the projects base URL?" class="set-project-field">
-            <input type="submit" name="name" value="Set project" class="set-project-btn">
-        </section>
-        -->
+        <!-- <section class="container">
+            <div class="section-description">
+                <h3>Project</h3>
+            </div>
 
-        <div class="container">
+            <section class="base-url">
+                <input type="text" name="name" value="" placeholder="What's the projects base URL?" class="set-project-field">
+                <input type="submit" name="name" value="Set project" class="set-project-btn">
+            </section>
+        </section> -->
+
+        <section class="container">
+            <div class="section-description">
+                <h3>Developers</h3>
+            </div>
+
             <section class="row">
                 <a class="dev-cards" href="https://dev64-156.sipgate.com:3443" target="_blank">
                     <div class="illustration">
@@ -104,11 +118,84 @@
                     </div>
                 </a>
             </section>
-        </div>
+        </section>
+
+        <section class="container">
+            <div class="section-description">
+                <h3>Servers</h3>
+            </div>
+
+            <section class="row">
+                <a class="dev-cards" href="https://dev.app.sipgate.com" target="_blank">
+                    <div class="illustration">
+                        <img src="files/server.jpg" alt="" width="auto" height="auto"/>
+                    </div>
+                    <div class="dev-name">
+                        Dev<br>
+                        <span class="devID">dev.app.sipgate</span>
+                    </div>
+                </a>
+
+                <a class="dev-cards" href="https://stage.app.sipgate.com" target="_blank">
+                    <div class="illustration">
+                        <img src="files/server.jpg" alt="" width="auto" height="auto"/>
+                    </div>
+                    <div class="dev-name">
+                        Stage<br>
+                        <span>stage.app.sipgate</span>
+                    </div>
+                </a>
+
+                <a class="dev-cards" href="https://app.sipgate.com" target="_blank">
+                    <div class="illustration">
+                        <img src="files/server.jpg" alt="" width="auto" height="auto"/>
+                    </div>
+                    <div class="dev-name">
+                        Live<br>
+                        <span>app.sipgate</span>
+                    </div>
+                </a>
+            </section>
+        </section>
+
+        <section class="container">
+            <div class="section-description">
+                <h3>Links</h3>
+            </div>
+
+            <section class="row">
+                <a class="dev-cards" href="https://dev.app.sipgate.com" target="_blank">
+                    <div class="illustration">
+                        <img src="files/links.jpg" alt="" width="auto" height="auto"/>
+                    </div>
+                    <div class="dev-name">
+                        Admin 2.0<br>
+                        <span class="devID">admin.sipgate.net</span>
+                    </div>
+                </a>
+
+                <a class="dev-cards" href="https://stage.app.sipgate.com" target="_blank">
+                    <div class="illustration">
+                        <img src="files/links.jpg" alt="" width="auto" height="auto"/>
+                    </div>
+                    <div class="dev-name">
+                        Jenkins<br>
+                        <span>jenkins.sipgate.net</span>
+                    </div>
+                </a>
+            </section>
+        </section>
 
         <footer class="footer">
-                <span>💎</span> <br>
-                Made by Captain Future
+            <div class="footer-container">
+                <div class="left">
+                    💎 &nbsp;1.0
+                </div>
+
+                <div class="right">
+                    Copyright by Captain Future bitch!
+                </div>
+            </div>
         </footer>
 
         <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>

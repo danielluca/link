@@ -10,7 +10,7 @@
         border: solid 2px transparentize($black, .95);
         border-radius: 4px;
         padding: 1em;
-        color: $primaryOneColor;
+        color: $primaryTwoColor;
 
         &:focus {
             border-color: $primaryOneColor;
@@ -26,7 +26,12 @@
         margin: .5em;
         border: solid 2px transparent;
         border-radius: 3px;
-        background-color: $primaryOneColor;
+        background-color: $primaryTwoColor;
         color: $alternateTextColor;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $primaryOneColor;
+        }
     }
 }
