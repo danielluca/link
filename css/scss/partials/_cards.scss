@@ -1,8 +1,25 @@
 .container {
-    margin-top: 4.5em;
+    margin-top: 5.5em;
 
     @media screen and (min-width: 768px) {
-        margin-top: 8em;
+        margin-top: 4em;
+
+        &:nth-child(2) {
+            margin-top: 10em;
+        }
+    }
+
+    .section-description {
+        max-width: 960px;
+        margin: auto;
+
+        h3 {
+            margin-left: 1.3em;
+            text-transform: uppercase;
+            font-size: .8em;
+            color: transparentize($textColor, .5);
+            letter-spacing: .5px;
+        }
     }
 
     .row {
@@ -11,7 +28,7 @@
         margin: auto;
         flex-direction: column;
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 1024px) {
             flex-direction: row;
         }
 
@@ -19,20 +36,18 @@
             display: flex;
             align-items: center;
             align-content: center;
-            border: solid 2px transparentize($black, .95);
+            border: solid 2px transparentize($textColor, .95);
             border-radius: 4px;
             padding: 1em;
             flex-grow: 1;
-            flex-basis: 100%;
             text-align: center;
             margin-left: 1em;
             margin-right: 1em;
             margin-top: 1em;
 
-            @media screen and (min-width: 768px) {
+            @media screen and (min-width: 1024px) {
                 margin-bottom: 1em;
-                padding: 2em;
-                max-width: 220px;
+                max-width: 252px;
             }
 
             &:hover {
@@ -53,17 +68,16 @@
                 display: flex;
                 flex-direction: column;
                 align-content: center;
-                text-transform: uppercase;
-                font-size: 1.25em;
+                font-size: 1.2em;
                 color: $primaryOneColor;
                 text-align: left;
                 margin-left: 1em;
 
                 span {
                     font-size: .8em;
-                    line-height: 1;
+                    line-height: 1.2;
                     text-transform: none;
-                    color: rgba(0, 0, 0, .4);
+                    color: transparentize($textColor, .4);
                 }
             }
         }

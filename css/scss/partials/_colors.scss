@@ -1,11 +1,21 @@
-$sea: rgba(121, 187, 239, 1);
-$purpur: rgba(60, 89, 165, 1);
-$milka: rgba(157, 144, 197, 1);
-$limo: rgba(255, 87, 34, 1);
+//Sepcial Color Swatch
+$sea: rgba(120, 185, 240, 1);
+$purpur: rgba(60, 90, 165, 1);
+$milka: rgba(155, 145, 195, 1);
+$limo: rgba(255, 95, 45, 1);
+$blueberry: rgba(55, 125, 230, 1);
+
+//Standard Color Swatch
 $white: rgba(255, 255, 255, 1);
-$black: rgba(0, 0, 0, 1);
+$black: rgba(85, 85, 95, 1);
 
+//Primary App Colors
 $primaryOneColor: $limo;
-$primaryTwoColor: $purpur;
+$primaryTwoColor: $black;
 
+//Secondary App Colors
+$secondaryOneColor: $white;
+
+//Text Colors
+$textColor: $black;
 $alternateTextColor: $white;

@@ -1275,7 +1275,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 22467,
+		"initialSize": 24177,
 		"inputAbbreviatedPath": "\/files\/aline.jpeg",
 		"outputAbbreviatedPath": "\/files\/aline.jpeg",
 		"outputPathIsOutsideProject": 0,
@@ -1304,6 +1304,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/files\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3145,
+		"inputAbbreviatedPath": "\/files\/favicon.png",
+		"outputAbbreviatedPath": "\/files\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/files\/henning.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1315,13 +1326,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/files\/links.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27162,
+		"inputAbbreviatedPath": "\/files\/links.jpg",
+		"outputAbbreviatedPath": "\/files\/links.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/files\/ruth.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 24177,
+		"initialSize": 22467,
 		"inputAbbreviatedPath": "\/files\/ruth.jpeg",
 		"outputAbbreviatedPath": "\/files\/ruth.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/server.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29058,
+		"inputAbbreviatedPath": "\/files\/server.jpg",
+		"outputAbbreviatedPath": "\/files\/server.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1406,8 +1439,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "tank",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "Link",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "globe_darkGray"
 	},
 "projectSettings": {
