@@ -1,23 +1,38 @@
 .footer {
     display: flex;
-    justify-content: space-between;
     padding: 3em;
     color: $textColor;
-    background-color: lighten($primaryTwoColor, 62);
+    background-color: lighten($primaryTwoColor, 60);
     margin-top: 5em;
 
     .footer-container {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
         width: 100%;
         max-width: 960px;
         margin: auto;
         color: lighten($textColor, 20);
+
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
     }
 
-    .left,
     .right {
-        margin-left: 1.3em;
-        margin-right: 1.3em;
+        margin-top: 1em;
+        padding: 0 1em;
+
+        @media screen and (min-width: 768px) {
+            margin-top: 0;
+            margin-right: 1.3em;
+        }
+    }
+
+    .left {
+        @media screen and (min-width: 768px) {
+            margin-left: 1.3em;
+        }
     }
 }
