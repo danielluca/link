@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
     </head>
     <body>
-        <header class="header">
+        <header class="headroom header">
             <div class="header-container">
                 <div class="logo">
                     <svg x="0px" y="0px" viewBox="0 0 150 150">
@@ -228,7 +228,13 @@
             </div>
         </footer>
 
-        <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
-        <script src="js/min/functions-min.js" charset="utf-8"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/min/headroom.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/min/functions-min.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+            var myElement = document.querySelector("header");
+            var headroom  = new Headroom(myElement);
+            headroom.init();
+        </script>
     </body>
 </html>
